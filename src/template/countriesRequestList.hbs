@@ -1,0 +1,8 @@
+<ul class="countries-list">
+    {{#each this}}
+    <li class="countries-list-item">
+        <p class="countries-list-item-text">{{this.name}} - {{this.nativeName}}</p>
+        <img class="countries-list-item-flag" src="{{this.flag}}" alt="{{this.name}}">
+    </li>
+    {{/each}}
+</ul>
